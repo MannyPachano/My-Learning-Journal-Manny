@@ -1,0 +1,69 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>My Learning Journal</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <img src="images/chat-bubble.png" class="nav-icon">
+                </li>
+                <li class="nav-logo">
+                    My Learning Journal
+                </li>
+                <div class="nav-links-container">
+                    <li class="nav-home">
+                        <a href="#">HOME</a>
+                    </li>
+                    <li class="nav-about">
+                        <a href="#">ABOUT ME</a>
+                    </li>
+                </div>
+                
+                <div class="nav-burger-container">
+                    <li">
+                        <img src="images/burger-menu.svg" 
+                        class="burger-img" 
+                        id="burger-img"
+                        data-value="burger"></img>
+                    </li>
+                </div>
+                
+            </ul>
+        </nav>
+        
+        <!-- burger links menu -->
+        <div class="burger-links-container hidden" id="burger-links-container">
+            <ul class="burger-links">
+                <li class="nav-home">
+                    <a href="#">HOME</a>
+                </li>
+                <li class="nav-about">
+                    <a href="#">ABOUT ME</a>
+                </li>
+            </ul>
+        </div>
+        
+        
+        <section class="hero-section">
+            <div class="hero-container">
+                <p class="hero-date">JULY 23, 2022</p>
+                <h1 class="hero-title">My new journey as a bootcamp student.</h1>
+                <p class="hero-content">After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>
+            </div>
+        </section>
+        <section class="blog"  id="blog-section">
+        </section>
+        <div class="view-more" id="view-more-container">
+            <a href="#" id="view-more-btn">View More</a>
+        </div>
+        
+        <script src="index.js" type="module"></script>
+    </body>
+    
+</html>
